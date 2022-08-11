@@ -77,9 +77,15 @@ div.section-dkBlue {
 nav {
   font-size: 80%;
   font-family: var(--mono);
-  max-width: 1200px;
+  /* max-width: 1200px; */
   text-align: center;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--black);
+  padding: 0.2rem 5rem 0.2rem 5rem;
+
   /* position: sticky;
   top: 0;
   background-color: var(--black); */
